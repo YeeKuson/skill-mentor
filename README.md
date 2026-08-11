@@ -2,7 +2,7 @@
 
 `skill-teacher` 是一个用于评估、审计、诊断、教学和优化 Agent Skill 的元 Skill。它把质量评分、安全门禁、结构审计、触发评测和小步优化合并成一套可追溯规范。
 
-当前仓库仅用于开发和维护。**它尚未安装，也不会通过仓库内命令自动安装到任何本地 Skill 目录。**
+当前版本已发布到 GitHub，并已在 Codex 用户级 Skills 目录完成安装验证。仓库本身不包含静默安装或自动覆盖逻辑。
 
 ## 能力范围
 
@@ -59,6 +59,18 @@ python C:/Users/KMW_E/.codex/skills/.system/skill-creator/scripts/quick_validate
 
 外部安全扫描器属于可选增强。仓库不会自动安装 SkillSpector 或 Cisco Skill Scanner；未执行必须在正式审计报告中标记 `NOT_RUN`。
 
+## 安装
+
+仓库地址：[YeeKuson/skill-teacher](https://github.com/YeeKuson/skill-teacher)
+
+安装到 Codex 用户级 Skills 目录：
+
+```powershell
+git clone https://github.com/YeeKuson/skill-teacher.git "$env:USERPROFILE\.codex\skills\skill-teacher"
+```
+
+安装后重新开始一个 Codex 任务，即可通过 `$skill-teacher` 显式调用，也可以让 Codex 根据任务描述自动触发。
+
 ## 维护方式
 
 1. 先更新权威规范文件，避免同一规则散落多处。
@@ -77,7 +89,10 @@ python C:/Users/KMW_E/.codex/skills/.system/skill-creator/scripts/quick_validate
 - [评测手册](references/evaluation-playbook.md)
 - [调研依据](references/research-notes.md)
 
-## 安装状态
+## 发布状态
 
-未安装。开发完成后的安装、发布、打包或远程推送均是独立操作，需要另行确认。
-
+- GitHub：<https://github.com/YeeKuson/skill-teacher>
+- 可见性：Public
+- 默认分支：`main`
+- 本地安装：已验证
+- 自动发布与覆盖更新：不提供；版本更新应显式执行并重新验证
