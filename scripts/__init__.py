@@ -1,2 +1,1 @@
-"""Deterministic helper scripts for skill-teacher."""
-
+"""Deterministic helper scripts for skill-mentor."""

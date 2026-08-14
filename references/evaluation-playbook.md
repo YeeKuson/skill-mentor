@@ -78,7 +78,7 @@
 ```json
 {
   "schema_version": "1.0",
-  "skill_name": "skill-teacher",
+  "skill_name": "skill-mentor",
   "cases": [
     {
       "id": "trigger-audit-001",
@@ -93,4 +93,3 @@
 ```
 
 评测结果和临时工作区放在 Skill 目录之外，避免污染被审计资源和安装包。
-

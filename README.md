@@ -1,6 +1,6 @@
-# Skill Teacher
+# Skill Mentor
 
-`skill-teacher` 是一个用于评估、审计、诊断、教学和优化 Agent Skill 的元 Skill。它把质量评分、安全门禁、结构审计、触发评测和小步优化合并成一套可追溯规范。
+`skill-mentor` 是一个用于评估、审计、诊断、教学和优化 Agent Skill 的元 Skill。它把质量评分、安全门禁、结构审计、触发评测和小步优化合并成一套可追溯规范。
 
 当前版本已发布到 GitHub，并已在 Codex 用户级 Skills 目录完成安装验证。仓库本身不包含静默安装或自动覆盖逻辑。
 
@@ -17,7 +17,7 @@
 ## 目录
 
 ```text
-skill-teacher/
+skill-mentor/
 ├── SKILL.md                         # Agent 入口与不可跳过门禁
 ├── AGENTS.md                        # 仓库维护约束
 ├── agents/openai.yaml               # Codex UI 元数据
@@ -61,15 +61,15 @@ python C:/Users/KMW_E/.codex/skills/.system/skill-creator/scripts/quick_validate
 
 ## 安装
 
-仓库地址：[YeeKuson/skill-teacher](https://github.com/YeeKuson/skill-teacher)
+仓库地址：[YeeKuson/skill-mentor](https://github.com/YeeKuson/skill-mentor)
 
 安装到 Codex 用户级 Skills 目录：
 
 ```powershell
-git clone https://github.com/YeeKuson/skill-teacher.git "$env:USERPROFILE\.codex\skills\skill-teacher"
+git clone https://github.com/YeeKuson/skill-mentor.git "$env:USERPROFILE\.codex\skills\skill-mentor"
 ```
 
-安装后重新开始一个 Codex 任务，即可通过 `$skill-teacher` 显式调用，也可以让 Codex 根据任务描述自动触发。
+安装后重新开始一个 Codex 任务，即可通过 `$skill-mentor` 显式调用，也可以让 Codex 根据任务描述自动触发。
 
 ## 维护方式
 
@@ -91,7 +91,7 @@ git clone https://github.com/YeeKuson/skill-teacher.git "$env:USERPROFILE\.codex
 
 ## 发布状态
 
-- GitHub：<https://github.com/YeeKuson/skill-teacher>
+- GitHub：<https://github.com/YeeKuson/skill-mentor>
 - 可见性：Public
 - 默认分支：`main`
 - 本地安装：已验证

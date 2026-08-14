@@ -1,9 +1,9 @@
 ---
-name: skill-teacher
+name: skill-mentor
 description: 评估、审计、诊断、讲解和优化 Agent Skill，并检查 Skill 消费目录的合法性、冲突、断链与安全风险。用户提到快速检测、简单看看、校验、培养、优化、分析、深度审计、全面重构、Skill 评分、Skill 安全、Skill 调试或 Skill 治理时使用。也用于创建或改进 Skill 质量规范。不要用于普通代码审查、一般提示词润色、未形成 Skill 的一次性说明，或未经用户确认直接修改、安装、发布 Skill。
 ---
 
-# Skill Teacher
+# Skill Mentor
 
 把每次评价建立在完整读取、可追溯证据和独立安全门禁上。先证明发现了什么，再评分；先获得授权，再修改。
 

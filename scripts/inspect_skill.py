@@ -612,7 +612,7 @@ def result_to_json_value(result: InspectionResult) -> dict[str, JSONValue]:
 def render_text(result: InspectionResult) -> str:
     """Render a compact human-readable inspection report."""
     lines = [
-        "Skill Teacher deterministic inspection",
+        "Skill Mentor deterministic inspection",
         f"Target: {result.skill_root}",
         f"Skill: {result.skill_name or 'UNKNOWN'}",
         f"Status: {result.status}",

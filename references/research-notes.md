@@ -15,7 +15,7 @@
 - 仓库：[anthropics/skills](https://github.com/anthropics/skills)
 - 调研时约 167.8k Stars，官方示例包含生产环境使用的复杂文档 Skill。
 - 采用：三层渐进式披露、主文件控制、真实任务评测、Skill 与无 Skill 基线、描述触发优化、保留测试集。
-- 不照搬：平台专属打包和 Claude-only 运行机制；`skill-teacher` 保持跨 Agent 规则并显式标注平台差异。
+- 不照搬：平台专属打包和 Claude-only 运行机制；`skill-mentor` 保持跨 Agent 规则并显式标注平台差异。
 
 ### obra/superpowers
 
@@ -73,4 +73,3 @@
 - Skill 包签名、依赖清单和关系字段仍处于生态提案或平台差异阶段，不作为硬性评分项。
 - 自动安装、自动发布、自动更新和跨平台转换不属于质量审计核心，避免主动作被篡位。
 - 记忆机制只在状态确有生命周期价值时使用，不作为通用成熟度标志。
-

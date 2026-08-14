@@ -1,8 +1,8 @@
-# Skill Teacher 项目约束
+# Skill Mentor 项目约束
 
 ## Project Summary
 
-`skill-teacher` 是一个用于评估、审计、诊断和优化 Agent Skill 的元 Skill。
+`skill-mentor` 是一个用于评估、审计、诊断和优化 Agent Skill 的元 Skill。
 它采用三档评估深度、八维评分、九项审计和独立安全门禁，输出带证据锚点的报告。
 主 Skill 保持精简，详细规则放在 `references/`，确定性检查放在 `scripts/`。
 源码已公开发布，并完成 Codex 用户级 Skills 目录安装验证；维护脚本不得在未授权情况下静默安装或覆盖现有版本。
@@ -21,8 +21,8 @@
 
 - 已完成：第一版规范、只读检查器、7 个回归测试与 10 个评测样例。
 - 已验证：单元测试、Skill 格式、JSON/YAML、交叉引用和自身静态检查通过。
-- 已发布：GitHub public 仓库 `YeeKuson/skill-teacher`，默认分支 `main`。
-- 已安装：Codex 用户级 Skills 目录中的 `skill-teacher` 运行时文件已验证。
+- 已发布：GitHub public 仓库 `YeeKuson/skill-mentor`，默认分支 `main`。
+- 已安装：Codex 用户级 Skills 目录中的 `skill-mentor` 运行时文件已验证。
 - 待确认：真实模型上的触发率与有无 Skill 基线对比。
 - 未执行：独立 Release、`.skill` 打包和自动更新机制。
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "skill_name": "skill-teacher",
+  "skill_name": "skill-mentor",
   "cases": [
     {
       "id": "trigger-scan-001",
@@ -44,7 +44,7 @@
       "id": "negative-code-review-004",
       "category": "trigger_negative",
       "prompt": "帮我审查这个 Python 函数有没有空指针问题。",
-      "expected": "不触发 skill-teacher；这是普通代码审查。",
+      "expected": "不触发 skill-mentor；这是普通代码审查。",
       "assertions": [
         "should_trigger=false"
       ],
@@ -54,7 +54,7 @@
       "id": "negative-prompt-polish-005",
       "category": "trigger_negative",
       "prompt": "把这段一次性提示词润色得更简洁。",
-      "expected": "不触发 skill-teacher；目标不是 Agent Skill。",
+      "expected": "不触发 skill-mentor；目标不是 Agent Skill。",
       "assertions": [
         "should_trigger=false"
       ],
@@ -123,4 +123,3 @@
     }
   ]
 }
-
